@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+:root {
+    font-size: 100%;
+    font-size: 17px;
+    line-height: 1.5;
+    --primary-blue:#233975;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.copy h1 a {
+    text-decoration: none;
+    color: white;
+}
+ 
+h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+h2 {
+    color: rgb(41, 41, 41);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+h2 span{
+    color: #A91F2F;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-blue);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.small{
+    font-size: 80%;
+    text-align: center;
+}
+
+.split-screen{
+    display: flex;
+    flex-direction: column;
+}
+
+.left{
+    height: 200px;
+    width: 100%;
+}
+.left, .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    background:url(../images/unsplash_L9U5UUScnHY.png);
+    background-size: cover;
+    background-size: 100%;
+}
+.left .copy {
+    color: white;
+
+    text-align: center;
+    -wekit-font-smoothing: antialiased;
+    -moz-font-smoothing: grayscale;
+}
+
+.left p {
+    font-weight: 400;
+}
+
+.right .copy {
+    color: black;
+    text-align: center;
+}
+
+.right .copy p {
+    margin: 1.5em 0;
+    font-size: 0.875rem;
+}
+
+.right form {
+    width: 428px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: #EFF0F2;
+    border: 1px solid #c4c4c4;
+    padding: 1em;
+    margin-bottom: 1.15rem;
+    font-size: 0.875rem;
+}
+
+select{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #c4c4c4;
+    padding: 1em;
+    margin-bottom: 1.15rem;
+    font-size: 0.875rem;
+}
+label {
+    display: block;
+    margin-bottom: 0.65rem;
+    font-size: .75rem;
+    font-weight: bold;
+}
+
+.input-container.password{
+    position: relative;
+}
+
+.input-container.password i {
+    position: absolute;
+    top: 42px;
+    right: 16px;
+}
+
+
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 2rem;
+    user-select: none;
+    margin: 0 0 1.25rem 0;
+    font-weight: lighter;
+}
+
+
+.checkbox-container input:checked~.checkmark {
+    background-color: var(--primary-blue);
+    border: 1px solid var(--primary-blue);
+}
+
+.checkmark {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: white;
+    border: white;
+    border-radius: 2px;
+    top: -4px;
+    left: 0;
+}
+
+.checkmark:after{
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox-container input:checked~.checkmark:after{
+    display: block;
+}
+
+.checkbox-container .checkmark:after {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    width: 5px;
+    height: 10px;
+    left: 8px;
+    top: 4px;
+    transform: rotate(45deg);
+}
+
+.signup-btn {
+    display: block;
+    width: 100%;
+    background: #A91F2F;
+    color: white;
+    font-weight: 700;
+    border: none;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 900px){
+
+.split-screen{
+    margin-top: 5vh;
+    flex-direction: row;
+    height: 90vh;
+}
+
+.left,
+.right {
+    display: flex;
+    width: 50%;
+    height: auto;
+}
+
+}
+
+.container{
+    width: 92%;
+    height: 90%;
+    margin: auto;
+}
+
+.red{
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.forgot{
+    padding-bottom: 10px;
+    color: #D50000;
+    font-size: 12px;
+
+
+}
+
+
+
+
+
+#message {
+    display: none;
+    color: #000;
+    position: relative;
+    padding: 2px;
+    margin-top: 5px;
+  }
+  
+  #message p {
+    padding: 2px 35px;
+    font-size: 15px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
