@@ -1,0 +1,176 @@
+*,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.navlinks {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+}
+
+.logo img {
+  width: 80%;
+  height: 100%;
+  object-fit: contain;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.bell-icon img {
+  width: 90%;
+  height: 100%;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.profile img {
+  width: 90%;
+  height: 100%;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.body {
+  width: 100%;
+  height: 95vh;
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  flex-direction: column;
+}
+
+.assets {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.box1 {
+  width: 1165px;
+  height: 350px;
+  background-color: white;
+  box-shadow: 0px 5px 15px rgba(221, 221, 221, 0.71);
+  margin-top: 70px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.box1texts {
+  gap: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box1texts h1 {
+  font-size: 25px;
+  color: #a91f2f;
+  font-weight: bolder;
+}
+
+.box1texts p {
+  font-size: 15px;
+  color: rgba(66, 66, 67, 0.7);
+}
+
+.ptags {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.addnew {
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(169, 31, 47, 1);
+  border: 1px solid transparent;
+  color: white;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.addnew:hover {
+  border: 1px solid rgb(21, 21, 21);
+  background-color: white;
+  color: black;
+}
+
+.box1 img {
+  width: 100%;
+  height: 40%;
+  object-fit: contain;
+}
+
+.twoboxes {
+  display: flex;
+  width: 68%;
+  gap: 30px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.boxone {
+  display: flex;
+  width: 295px;
+  height: 248px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.boxstuff img {
+  width: 100%;
+  object-fit: contain;
+}
+.stuff {
+  padding-left: 10px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.stuff h1 {
+  font-size: 15px;
+}
+
+.stuff p {
+  font-size: 13px;
+  font-weight: 100;
+}
+
+.sectionline {
+  height: 1px;
+  background-color: rgb(198, 198, 198);
+  width: 100%;
+  padding-left: 0px;
+}
+
+.lasticons img {
+  width: 30%;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.boxstuff {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
