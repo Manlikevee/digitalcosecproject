@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.Maincontent{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    align-items: center;
+}
+.Twoheaders{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Head2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+ion-icon {
+    font-size: 25px;
+  }
+.h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.user{
+    width: 30px;
+    height: 100%;
+}
+.WRD{
+    color: #424243;
+    font-family: 'Roboto', sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.wrd{
+    color: #424243;
+    font-family: 'Roboto', sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.bd{
+    display: flex;
+}
+.Midcontent{
+    background-color: rgba(244, 244, 244, 1);
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    align-items: center;
+}
+.Container1{
+width: 60%;
+height: 100%;
+padding: 10px;
+
+margin: auto;
+}
+.bigdiv{
+    color: var(--themedark, #424243);
+    font-family: 'Roboto', sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.smalldiv{
+    color: #25213B;
+    font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.border{
+    border-bottom: 1px solid  #D9D5EC;;
+}
+.Inputdivs{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 30px;
+    width: 100%;
+}
+.input1{
+    width: 100%;
+}
+
+input[type="text"], form input[type="email"], form input[type="password"] {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background: #fff;
+    border: 1px solid #c4c4c4;
+    padding: 1em;
+    margin-bottom: 1.15rem;
+    font-size: 0.875rem;
+}
+select{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background: white;
+    border: 1px solid #c4c4c4;
+    padding: 1em;
+    margin-bottom: 1.15rem;
+    font-size: 0.875rem;
+}
+.Box{
+    display: flex;
+    gap: 20px;
+}
+.b1{
+    color: #A91F2F;
+    font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.b2{
+    color: #424243;
+    font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+button{
+    background-color: #fff;
+    color: #A91F2F;
+text-align: right;
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+padding: 10px;
+text-align: center;
+width: 180px;
+outline: none;
+border: none;
+height: 10vh;
+}
