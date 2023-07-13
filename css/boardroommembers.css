@@ -1,0 +1,213 @@
+*,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  z-index: 999999999999999999999999999999999999999999999;
+  box-shadow: 0px 5px 15px rgb(212, 212, 212);
+}
+
+.navlinks {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+}
+
+.logo img {
+  width: 80%;
+  height: 100%;
+  object-fit: contain;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.bell-icon img {
+  width: 90%;
+  height: 100%;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.profile img {
+  width: 90%;
+  height: 100%;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.textlinks {
+  display: flex;
+  gap: 40px;
+}
+.textlinks a {
+  text-decoration: none;
+  color: black;
+}
+
+.body {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #e3e3e3;
+}
+
+.twosections {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+  margin-top: 120px;
+}
+
+.sectionone {
+  width: 25%;
+  height: 100vh;
+  display: flex;
+  background-color: white;
+  box-shadow: 0px 5px 15px rgb(228, 228, 228);
+  flex-direction: column;
+  position: sticky;
+  top: 10%;
+}
+
+.sectiononeassets {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.sectiononeassets img {
+  width: 90%;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.sectiontwo {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 40px;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.headtext {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.fiveboxes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  margin-top: 20px;
+  width: 220px;
+  border: 1px solid rgb(230, 230, 230);
+  box-shadow: 0px 5px 15px rgb(239, 239, 239);
+  color: black;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  display: flex;
+  gap: 10px;
+  transition: 0.4s;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.box1:hover {
+  color: white;
+  background-color: rgba(169, 31, 47, 1);
+}
+
+.h1 {
+  width: 100%;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.h2 {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 100;
+  color: rgb(72, 72, 72);
+}
+
+.box1 p {
+  font-size: 14px;
+}
+
+.box1 img {
+  width: 8%;
+}
+
+.assets {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+}
+
+.profileboxes {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.searchbar {
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+}
+
+.profilebox1 {
+  margin-top: 30px;
+  display: flex;
+  width: 280px;
+  height: 300px;
+  box-shadow: 0px 5px 15px rgb(211, 211, 211);
+  border: 1px solid rgb(220, 220, 220);
+}
+
+.profileboxes2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.profilebox2 {
+  margin-top: 35px;
+  display: flex;
+  width: 226px;
+  height: 300px;
+  box-shadow: 0px 5px 15px rgb(211, 211, 211);
+  border: 1px solid rgb(220, 220, 220);
+}
